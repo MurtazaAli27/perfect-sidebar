@@ -34,8 +34,163 @@
 			</nav>
 			<main class="content">
 				<h1 class="p-3">Dashboard</h1>
+				<div class="content-wrapper p-3">
+					<div class="table-data card">
+						<h3 class="p-3">Customer Transaction Details</h3>
+						<div class="table-responsive">
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">Name</th>
+										<th scope="col">Date</th>
+										<th scope="col">Status</th>
+										<th scope="col">Amount</th>
+										<th scope="col">Info</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">1</th>
+										<td>Mark Watson</td>
+										<td>03-08-2020</td>
+										<td class="text-success">Transferred</td>
+										<td>$2,48,960.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Sofia Robertson</td>
+										<td>03-08-2020</td>
+										<td class="text-success">Transferred</td>
+										<td>$78,956.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Matt Arlnord</td>
+										<td>30-07-2020</td>
+										<td class="text-warning">Processing</td>
+										<td>$5,85,976.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>Larry Finch</td>
+										<td>30-07-2020</td>
+										<td class="text-success">Transferred</td>
+										<td>$34,692.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>Jacob Phill</td>
+										<td>30-07-2020</td>
+										<td class="text-danger">Cancelled</td>
+										<td>$7,89,465.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+									<tr>
+										<th scope="row">6</th>
+										<td>Simon Clark</td>
+										<td>26-07-2020</td>
+										<td class="text-warning">Processing</td>
+										<td>$86,365.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+									<tr>
+										<th scope="row">7</th>
+										<td>Travis Halt</td>
+										<td>26-07-2020</td>
+										<td class="text-warning">Processing</td>
+										<td>$1,23,567.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+									<tr>
+										<th scope="row">8</th>
+										<td>Amelia Mc</td>
+										<td>26-07-2020</td>
+										<td class="text-success">Transferred</td>
+										<td>$4,10,233.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+									<tr>
+										<th scope="row">9</th>
+										<td>Leah Morgan</td>
+										<td>26-07-2020</td>
+										<td class="text-success">Transferred</td>
+										<td>$48,865.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+									<tr>
+										<th scope="row">10</th>
+										<td>Ted Hamilton</td>
+										<td>26-07-2020</td>
+										<td class="text-success">Transferred</td>
+										<td>$6,92,155.00</td>
+										<td><button class="btn btn-sm btn-primary">View more</button></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="donut1 card pb-3">
+						<h3 class="p-3">Types of Revenue</h3>
+						<canvas id="chDonut1"></canvas>
+					</div>
+					<div class="donut2 card pb-3">
+						<h3 class="p-3">Transaction Status</h3>
+						<canvas id="chDonut2"></canvas>
+					</div>
+					<div class="line-chart card p-3">
+						<h3 class="py-3">Linear Upsales</h3>
+						<canvas id="chLine"></canvas>
+					</div>
+					<div class="bar-chart card p-3">
+						<h3 class="py-3">Statistical Analysis</h3>
+						<canvas id="chBar"></canvas>
+					</div>
+				</div>
 			</main>
-			<aside class="side"></aside>
+			<aside class="side">
+				<div class="side-wrapper">
+					<div class="logo">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="-18 0 100 100" enable-background="new -18 0 100 100" xml:space="preserve">
+							<g>
+								<polygon points="25.913,32.797 42.649,61.992 54.883,61.992 25.676,12.753 -11.114,76.314 -5.175,87.45  " />
+								<polygon points="31.367,43.632 25.911,34.257 -4.631,87.45 69.303,87.45 75.114,75.624 13.232,75.687  " />
+								<polygon points="21.448,62.713 14.413,75.192 75.114,75.192 38.308,12.607 26.672,12.607 56.355,62.713  " />
+							</g>
+						</svg>
+						<!-- LOGO SVG FILE HERE -->
+						<span>ALTRAZ</span>
+					</div>
+					<div class="header">
+						<div class="img"><img src="src/img/avatar.jpg" class="avatar" alt="avatar" /></div>
+						<div class="title">
+							<h5 class="m-0 text-white">Jane Doe</h5>
+							<p class="font-weight-light text-white-50 mb-0">Alberto Furn.</p>
+						</div>
+					</div>
+					<ul class="side-navbar-nav">
+						<li class="side-nav-item active">
+							<a class="side-nav-link" href="#"><i class="icons fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+						</li>
+						<li class="side-nav-item">
+							<a class="side-nav-link" href="#"><i class="icons fas fa-chart-bar"></i><span>Statistics</span></a>
+						</li>
+						<li class="side-nav-item">
+							<a class="side-nav-link" href="#"><i class="icons fas fa-envelope"></i><span>Messages</span></a>
+						</li>
+						<li class="side-nav-item">
+							<a class="side-nav-link" href="#"><i class="icons fas fa-user-alt"></i><span>profile</span></a>
+						</li>
+						<li class="side-nav-item">
+							<a class="side-nav-link" href="#"><i class="icons fas fa-credit-card"></i><span>Card Details</span></a>
+						</li>
+					</ul>
+				</div>
+			</aside>
 		</div>
 		<!-- Scripts -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
