@@ -22,7 +22,7 @@
 	},
 	"homepage": "https://github.com/MurtazaAli27/perfect-sidebar#readme",
 	"devDependencies": {
-		"browser-sync": "^2.26.12",
+		"browser-sync": "^2.27.10",
 		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "^7.0.1",
 		"gulp-changed": "^4.0.2",
